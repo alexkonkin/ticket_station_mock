@@ -35,3 +35,26 @@
 .bottom-buffer { 
 	margin-bottom:10px; 
 }
+
+.visible-border {
+	margin-left: 300px;
+	border: solid;
+	padding: 15px;
+}
+
+.invisible-border {
+	margin-left: 300px;
+	border: none;
+	padding: 15px;
+}
+
+.pager>li>a,
+.pager>li>a:visited
+{
+    background-color: lightblue;
+}
+
+.pager>li>a:hover {
+  background-color: lightsteelblue;
+}
+
